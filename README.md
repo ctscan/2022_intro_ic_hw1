@@ -1,4 +1,5 @@
-# 2022_intro_ic_hw1
+# 2022 Introduction to IC Design Homework 1
+
 ###  create folder with you student ID for you Answer.
 ### Include testbech for Q2 and Q3.
 
