@@ -1,5 +1,5 @@
 # 2022_intro_ic_hw1
-### One folder per question.
+###  create folder with you student ID for you Answer.
 ### Include testbech for Q2 and Q3.
 
 #### Q1. What is the function of Below Schematic
