@@ -1,8 +1,10 @@
 # 2022 Introduction to IC Design Homework 1
 
-- ###  create folder with you student ID for you Answer.
-- ### Include testbech for Q2 and Q3.
+### Fork this to your github account
+### Create folder with you student ID, and subfolder for each answer.
+### Please include testbech for Q2 and Q3.
 
+---
 #### Q1. What is the function of Below Schematic
 
 ![hw1](attach/hw1_1.png)
