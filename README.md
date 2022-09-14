@@ -6,6 +6,8 @@
 
 ---
 #### Q1. What is the function of Below Schematic
+Install Logicsim to evaluate the circuit.
+https://github.com/logisim-evolution/logisim-evolution/releases/tag/v3.7.2
 
 ![hw1](attach/hw1_1.png)
 
