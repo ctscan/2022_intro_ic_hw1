@@ -10,7 +10,8 @@ Install Logicsim to evaluate the circuit.
 https://github.com/logisim-evolution/logisim-evolution/releases/tag/v3.7.2
 
 ![hw1](attach/hw1_1.png)
-
+Logisim執行畫面，但評估電路電腦會crash。
+![Logisim執行畫面](attach/2022-09-18.png)
 #### Q2. Implement above function with Verilog
 
 #### Q3. Design a logic in verilog which mimics a infinite width register. It takes input serially 1 bit at a time.  Output is asserted high when this register holds a value which is divisible by 5.  For example:
@@ -24,4 +25,4 @@ https://github.com/logisim-evolution/logisim-evolution/releases/tag/v3.7.2
 | 1     | 10101         | 21         | 0      |
 
 #### Q4. Please introduce yourself with name and place you live - and of course tell us your dream and how you either live it or are working towards living it!
-
+A：名字陳維澤，居住在台中，我的夢想是做一個程式幫我維持生計，像是買股票賺錢之類的，讓我自由地想做甚麼都行。
