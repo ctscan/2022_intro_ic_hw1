@@ -92,6 +92,12 @@
     <a name="circuit" val="hw1_1"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="simulationFrequency" val="1.0"/>
+    <boardmap boardname="BASYS3">
+      <mc/>
+      <mc/>
+      <mc/>
+      <mc/>
+    </boardmap>
     <comp lib="0" loc="(110,1480)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="label" val="c"/>
@@ -152,6 +158,7 @@
     <comp lib="0" loc="(1440,100)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
+      <a name="label" val="address"/>
       <a name="output" val="true"/>
       <a name="radix" val="16"/>
       <a name="width" val="16"/>
