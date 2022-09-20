@@ -1,0 +1,8 @@
+c = 0 && s = 0 -> address = d     (hex)
+c = 1 && s = 0 -> address = d + 1 (hex)
+
+c = 0 && s = 1 -> address = d     (hex)
+c = 1 && s = 1 -> address = d - 1 (hex)
+
+0000 - 1 = FFFF (hex)
+FFFF + 1 = 0000 (hex)
