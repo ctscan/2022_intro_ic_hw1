@@ -8,8 +8,8 @@ module main/*(
     reg [15:0] d;
     reg c,s;
     reg [15:0]ans;
-    reg [100:0]XNOR_reg;
-    reg [100:0]XOR_reg;
+    reg [14:0]XNOR_reg;
+    reg [2:0]XOR_reg;
     integer i;
     initial begin
         d=16'h1310;
