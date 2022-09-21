@@ -1,16 +1,16 @@
 `timescale 1ns/1ns
-`include "div_5.v"
+`include "q3.v"
 
-module div_5_tb;
+module q3_tb;
 
     wire out;
     reg clk;
     reg inp;
 
-    div_5 test(out, clk, inp);
+    q3 test(out, clk, inp);
 
     initial begin
-        $dumpfile("div_5.vcd");
+        $dumpfile("q3_wave.vcd");
         $dumpvars;
 
         clk = 0;

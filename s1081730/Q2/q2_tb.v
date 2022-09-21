@@ -1,16 +1,16 @@
 `timescale 1ns/10ps
-`include "func.v"
+`include "q2.v"
 
-module func_tb;
+module q2_tb;
 
     wire [15:0] address;
     reg [15:0] d;
     reg c, s;
 
-    func test(address, d, c, s);
+    q2 test(address, d, c, s);
 
     initial begin
-        $dumpfile("func.vcd");
+        $dumpfile("q2_wave.vcd");
         $dumpvars;
 
         d = 16'h0001;

@@ -1,4 +1,4 @@
-module func (address, d, c, s);
+module q2 (address, d, c, s);
 
     output reg [15:0] address;
     input wire [15:0] d;
