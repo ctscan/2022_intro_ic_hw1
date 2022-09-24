@@ -1,0 +1,11 @@
+c   s   address
+0   0   d
+0   1   d
+1   0   d+1 
+1   1   d-1
+
+when d = ffff , c = 1 , s = 0 , address = 0000
+when d = 0000 , c = 1 , s = 0 , address = 0001
+
+when d = ffff , c = 1 , s = 1 , address = fffe
+when d = 0000 , c = 1 , s = 1 , address = ffff
