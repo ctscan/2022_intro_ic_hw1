@@ -8,6 +8,6 @@ module Q2(d,c,s,address);
         else if(c == 1 && s == 0) address = d + 1;
         else if(c == 1 && s == 1) address = d - 1;
         else;
-    end
+  end
     
 endmodule
