@@ -1,0 +1,4 @@
+when c:0  s:0  adress=d
+when c:1  s:0  adress=d+0001
+when c:0  s:1  adress=d
+when c:1  s:1  adress=d-0001
