@@ -13,7 +13,9 @@ module Q2(d,c,s,address);
     else if(c == 1 && s == 1) begin
       address = d - 1;
     end
-    else;
+    else begin
+      address = d;
+    end
   end
     
 endmodule
