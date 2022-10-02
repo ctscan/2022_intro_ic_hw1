@@ -1,0 +1,22 @@
+基本
+d:0000 , c:0 , s:0 , address = 0000
+d:0000 , c:0 , s:1 , address = 0000
+d:0000 , c:1 , s:0 , address = 0001
+d:0000 , c:1 , s:1 , address = ffff
+d:ffff , c:0 , s:0 , address = ffff
+d:ffff , c:0 , s:1 , address = ffff
+d:ffff , c:1 , s:0 , address = 0000
+d:ffff , c:1 , s:1 , address = fffe
+
+隨機值
+d:589a , c:0 , s:0 , address = 589a
+d:71f3 , c:0 , s:1 , address = 71f3
+d:c1ba , c:1 , s:0 , address = c1bb
+d:4ba3 , c:1 , s:1 , address = 4ba2
+
+
+c s 有4種組合
+0 0     輸出address不變
+0 1     輸出address不變
+1 0     輸出address加一
+1 1     輸出address減一
