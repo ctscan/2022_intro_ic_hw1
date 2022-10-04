@@ -1,3 +1,10 @@
+//-----
+//Design Name: q3
+//File Name: q3.v
+//Function: use to check if value can divisible by 5
+//Coder: s1081730
+//-----
+
 module q3 (out, clk, inp);
 
     output reg out;
@@ -5,14 +12,14 @@ module q3 (out, clk, inp);
     input wire inp;
 
     parameter s0 = 3'b000, s1 = 3'b001, s2 = 3'b010, s3 = 3'b011, s4 = 3'b100;
-    reg  [2:0] state;
+    reg [2:0] state;
 
     initial begin
         state = s0;
         out = 0;
     end
 
-    always @(posedge clk ) begin
+    always @(posedge clk) begin
         case (state)
             s0:
                 state = inp == 0 ? s0 : s1;
