@@ -1,13 +1,10 @@
-module main/*(
+module main(
     input [15:0]d,
     input c,
     input s,
     output reg[15:0]ans
-    )*/;
+    );
     reg BUTTEN;
-    reg [15:0] d;
-    reg c,s;
-    reg [15:0]ans;
     reg [14:0]XNOR_reg;
     reg [2:0]XOR_reg;
     integer i;
