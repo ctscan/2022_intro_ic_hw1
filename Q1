@@ -1,0 +1,3 @@
+c=0，無論d,s是多少，address=d
+c不等於0、s=0，address=d+c
+c不等於0、s不等於0，address=d+c-2
