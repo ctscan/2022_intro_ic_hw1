@@ -1,0 +1,5 @@
+c、s為二進位。
+d=address為十六進位。
+當c=1時，address+1。
+當s=1時，address-1。
+當d=0000且s=1時，address不會改變。
