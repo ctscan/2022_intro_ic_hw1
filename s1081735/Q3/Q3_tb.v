@@ -18,28 +18,24 @@ initial
 begin
     $dumpfile("Q3.vcd");
     $dumpvars;
-
-    num=1'b0;
     clk = 1'b0;
 
-    #4
-     num=1'b1;
+    num=1'b1;
+    #10 //第一個cycle後
+     num <= 1'b0;
+    $display("Input : %b , Output : %b",num,d5_s);
 
     #10
-     $display("Input : %b , Output : %b",num,d5_s);
-    num <= 1'b0;
+     num <= 1'b1;
+    $display("Input : %b , Output : %b",num,d5_s);
 
     #10
-     $display("Input : %b , Output : %b",num,d5_s);
-    num <= 1'b1;
+     num <= 1'b0;
+    $display("Input : %b , Output : %b",num,d5_s);
 
     #10
-     $display("Input : %b , Output : %b",num,d5_s);
-    num <= 1'b0;
-
-    #10
-     $display("Input : %b , Output : %b",num,d5_s);
-    num <= 1'b0;
+     num <= 1'b1;
+    $display("Input : %b , Output : %b",num,d5_s);
 
     #10
      $display("Input : %b , Output : %b",num,d5_s);
