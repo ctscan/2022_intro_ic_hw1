@@ -1,0 +1,77 @@
+$date
+	Wed Oct 12 16:57:08 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module Q3_tb $end
+$var wire 1 ! d5_s $end
+$var reg 1 " clk $end
+$var reg 1 # num $end
+$scope module q3 $end
+$var wire 1 " clk $end
+$var wire 1 # num $end
+$var parameter 3 $ IDLE $end
+$var parameter 3 % s_1 $end
+$var parameter 3 & s_2 $end
+$var parameter 3 ' s_3 $end
+$var parameter 3 ( s_4 $end
+$var reg 3 ) curr_state [2:0] $end
+$var reg 1 ! d5_s $end
+$var reg 3 * next_state [2:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b100 (
+b11 '
+b10 &
+b1 %
+b0 $
+$end
+#0
+$dumpvars
+bx *
+b0 )
+1#
+0"
+0!
+$end
+#5
+b1 )
+b1 *
+1"
+#10
+0#
+0"
+#15
+b100 )
+b100 *
+1"
+#20
+1#
+0"
+#25
+1!
+b0 )
+b0 *
+1"
+#30
+0#
+0"
+#35
+1"
+#40
+1#
+0"
+#45
+0!
+b1 )
+b1 *
+1"
+#50
+0"

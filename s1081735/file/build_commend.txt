@@ -1,0 +1,2 @@
+iverilog -o ./build/Q2.out ./Q2_tb.v ./Q2.v
+vvp -n ./build/test.out
