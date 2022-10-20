@@ -4,5 +4,5 @@ c   s   address
 1   0   d+1 
 1   1   d-1
 
-if d = 0000 && c = 1 && s = 1 address == ffff
-if d = ffff && c = 1 && s = 0 address == 0000
+if d = 0000 , c = 1 , s = 1 , address = ffff
+if d = ffff , c = 1 , s = 0 , address = 0000
