@@ -13,19 +13,12 @@ module q3 (clk, inp, out);
 
     always @(posedge clk) begin
         case (state)
-            n0:
-                state = inp == 0 ? n0 : n1;
-            n1:
-                state = inp == 0 ? n2 : n3;
-            n2:
-                state = inp == 0 ? n4 : n0;
-            n3:
-                state = inp == 0 ? n1 : n2;
-            n4:
-                state = inp == 0 ? n3 : n4;
+            n0:state = inp == 0 ? n0 : n1;
+            n1:state = inp == 0 ? n2 : n3;
+            n2:state = inp == 0 ? n4 : n0;
+            n3:state = inp == 0 ? n1 : n2;
+            n4:state = inp == 0 ? n3 : n4;
         endcase
-
-        out = state == n0;
+         out = state == n0;
     end
-    
 endmodule
