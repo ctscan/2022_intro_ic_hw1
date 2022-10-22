@@ -3,6 +3,7 @@ input c,s;
 input [15:0] d;
 output reg [15:0] address;
 always @(*)
+	
 begin
 	if(c==0)
 		    address = d;
