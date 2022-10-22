@@ -1,6 +1,1 @@
-若c=0 不論d、s為多少 address=d
-c=1  s=0  d不論為多少 address=d+1
-If d=0
-   c=1  s=1   address=ffff
-else
-   c=1  s=1   address=d-1
+
