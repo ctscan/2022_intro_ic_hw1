@@ -14,8 +14,7 @@ module q3 (out, clk, inp);
 
     always @(posedge clk) begin
         case (state)
-            a0:
-                state = inp == 0 ? a0 : a1;
+            a0:state = inp == 0 ? a0 : a1;
             a1: state = inp == 0 ? a2 : a3;
             a2: state = inp == 0 ? a4 : a0;
             a3: state = inp == 0 ? a1 : a2;
