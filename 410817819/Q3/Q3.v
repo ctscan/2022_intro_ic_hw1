@@ -23,5 +23,5 @@ module q3 (out, clk, inp);
 
         out = state == a0;
     end
-    
+  
 endmodule
