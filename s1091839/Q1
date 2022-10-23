@@ -1,0 +1,4 @@
+0 0 => addr = d
+0 1 => addr = d
+1 0 => addr = d+1
+1 1 => addr = d-1
