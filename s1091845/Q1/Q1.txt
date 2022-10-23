@@ -1,0 +1,4 @@
+若c=0, s=0, 則address=d
+若c=0, s=1, 則address=d
+若c=1, s=0, 則address=d+0001
+若c=1, s=1, 則address=d-0001
