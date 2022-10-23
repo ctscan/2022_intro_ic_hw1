@@ -1,0 +1,11 @@
+d、address為16進位，c、s為二進位
+if d=0
+  C=0、S=0時，address=d
+  C=1、s=0時，address=d+1
+  c=1、s=1時，address=ffff
+  c=0、s=1時，address=d
+else
+  C=0、S=0時，address=d
+  C=1、s=0時，address=d+1
+  c=1、s=1時，address=d-1
+  c=0、s=1時，address=d
