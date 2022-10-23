@@ -1,7 +1,0 @@
-c s 
-0 0 => address = d
-0 1 => address = d
-1 0 => address = d+1
-1 1 => address = d-1
-1 0 & d = ffff => address = 0000
-1 1 & d = 0000 => address = ffff
