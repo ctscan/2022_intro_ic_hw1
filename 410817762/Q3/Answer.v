@@ -9,6 +9,6 @@ module main(
     end
 
     always @(posedge clock)begin
-        out=(inp%5)==0;
+        out=(inp%5)!=0;
     end
 endmodule
