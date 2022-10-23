@@ -8,8 +8,11 @@ module q2_;
 
     initial;
     begin
-
-        d = 16'h0001;        #10
+        $dumpfile("q2_w.vcd");
+        $dumpvars;
+        
+        #10
+        d = 16'h0001;        
         c = 0;
         s = 0;
 
@@ -31,8 +34,8 @@ module q2_;
 
         d = 16'hFFFF;
         c = 1;
-        s = 1;              #100 finish
-       
+        s = 1;          
+        #100 finish    
     end
 
  endmodule
