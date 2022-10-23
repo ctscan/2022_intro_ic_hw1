@@ -1,0 +1,6 @@
+|input:  c/  s/  d       |output:    address
+
+        0   0   addr                addr     
+        0   1   addr                addr
+        1   0   addr                addr+1  //if d=ffff,address=0000
+        1   1   addr                addr-1  //if d=0000,address=ffff
