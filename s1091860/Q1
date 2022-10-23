@@ -1,0 +1,6 @@
+c s address
+
+if c==0 && s==0 d=address
+if c==0 && s==1 d=address
+if c==1 && s==0 d=address-1
+if c==1 && s==1 d=address+1
