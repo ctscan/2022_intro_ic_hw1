@@ -1,6 +1,6 @@
-當s為0且c為0 輸出=輸入
-當s為0且c為1 輸出=輸入+1
-當s為1且c為0 輸出=輸入
-當s為1且c為1 輸出=輸入-1
+c s address
 
-因此可判斷，c為觸發，s則為選擇將輸出等於輸入+1或-1
+if c==0 && s==0 d=address
+if c==0 && s==1 d=address
+if c==1 && s==0 d=address-1
+if c==1 && s==1 d=address+1
