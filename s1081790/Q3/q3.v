@@ -1,5 +1,5 @@
-module Q3(i,c,out);
-    input i,c;
+module Q3(i, c, out);
+    input i, c;
     output reg out;
     
     parameter n0 = 3'b000,  n1 = 3'b001, n2 = 3'b010, n3 = 3'b011 , n4 = 3'b100;
