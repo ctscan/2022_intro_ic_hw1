@@ -1,4 +1,4 @@
-module q2 (address, a, b, c);
+module Q2 (address, a, b, c);
 
     output reg [15:0] address;
     input wire [15:0] a;
