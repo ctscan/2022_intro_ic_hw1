@@ -6,9 +6,9 @@ reg s;
 wire [15:0] address;
 
 hw1 Q2(
-  .d(d)
-  .s(s)
-  .c(c)
+  .d(d),
+  .s(s),
+  .c(c),
   .address(address)
 );
   
