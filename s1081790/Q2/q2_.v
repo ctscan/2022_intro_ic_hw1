@@ -1,5 +1,4 @@
-
- module q2_;
+module q2_;
 
     reg c, s;
     reg [15:0] d;
@@ -7,11 +6,10 @@
 
     q2 test(c, s, d, address);
 
-    initial;    
-    
+    initial;
     begin
-        #10
-        d = 16'h0001;
+
+        d = 16'h0001;        #10
         c = 0;
         s = 0;
 
@@ -33,7 +31,8 @@
 
         d = 16'hFFFF;
         c = 1;
-        s = 1;
+        s = 1;              #100 finish
+       
     end
 
  endmodule
