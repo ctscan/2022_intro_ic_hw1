@@ -1,8 +1,0 @@
-when c = 0 && s = 0 , address = d
-
-when c = 0 && s = 1 , address = d
-
-when c = 1 && s = 0 , address = d + 1
-
-when c = 1 && s = 1 , address = d - 1
-

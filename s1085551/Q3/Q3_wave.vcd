@@ -1,0 +1,143 @@
+$date
+	Mon Oct 24 14:51:49 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module Q3_tb $end
+$var wire 1 ! out $end
+$var reg 1 " clk $end
+$var reg 1 # inp $end
+$scope module test $end
+$var wire 1 " clk $end
+$var wire 1 # inp $end
+$var parameter 3 $ h0 $end
+$var parameter 3 % h1 $end
+$var parameter 3 & h2 $end
+$var parameter 3 ' h3 $end
+$var parameter 3 ( h4 $end
+$var reg 1 ! out $end
+$var reg 3 ) state [2:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b100 (
+b11 '
+b10 &
+b1 %
+b0 $
+$end
+#0
+$dumpvars
+b0 )
+0#
+0"
+0!
+$end
+#4
+1#
+#5
+b1 )
+1"
+#10
+0"
+#14
+0#
+#15
+b10 )
+1"
+#20
+0"
+#24
+1#
+#25
+1!
+b0 )
+1"
+#30
+0"
+#34
+0#
+#35
+1"
+#40
+0"
+#44
+1#
+#45
+0!
+b1 )
+1"
+#50
+0"
+#54
+0#
+#55
+b10 )
+1"
+#60
+0"
+#64
+1#
+#65
+1!
+b0 )
+1"
+#70
+0"
+#75
+0!
+b1 )
+1"
+#80
+0"
+#85
+b11 )
+1"
+#90
+0"
+#95
+b10 )
+1"
+#100
+0"
+#105
+1!
+b0 )
+1"
+#110
+0"
+#115
+0!
+b1 )
+1"
+#120
+0"
+#125
+b11 )
+1"
+#130
+0"
+#135
+b10 )
+1"
+#140
+0"
+#145
+1!
+b0 )
+1"
+#150
+0"
+#155
+0!
+b1 )
+1"
+#160
+0"
+#164
