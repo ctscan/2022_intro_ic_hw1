@@ -1,0 +1,7 @@
+when c==0 && s==0,d==address
+when c==0 && s==1,d==address
+when c==1 && s==0,d==address-1
+when c==1 && s==1,d==address+1
+
+if d == hex(0000) && c==1 && f==1,then address == hex(ffff)
+if d == hex(ffff) && c==1 && f==0,then address == hex(0000)
